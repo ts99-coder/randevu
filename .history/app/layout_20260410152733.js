@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Providers>
-          {/* LGKZDFŞGLKFDŞLYKHLŞFHKŞDZLFHKŞDKHŞJLLHKDŞLK */}
-          {children}
+          LGKZDFŞGLKFDŞLYKHLŞFHKŞDZLFHKŞDKHŞJLLHKDŞLK
+          {/* {children} */}
         </Providers>
       </body>
     </html>

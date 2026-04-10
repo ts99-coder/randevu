@@ -17,10 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Providers>
-          {/* LGKZDFŞGLKFDŞLYKHLŞFHKŞDZLFHKŞDKHŞJLLHKDŞLK */}
+          <ReduxProvider>
+                <ThemeProvider theme={theme}>
           {children}
-        </Providers>
+        </ThemeProvider>
+          </ReduxProvider>
       </body>
     </html>
   );
