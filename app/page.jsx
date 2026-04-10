@@ -11,8 +11,7 @@ export default function HomePage() {
       </Box>
       <Paper className="h-[3%] flex items-end justify-center">
         <Typography variant="caption">
-          Copyright © 2020 AGEM - ÜRÜN ADI. Her hakkı saklıdır. AGEM Bilişim
-          Hizmetleri Ltd. Şti.
+        TUĞÇE SARPER :)
         </Typography>
       </Paper>
     </Box>
